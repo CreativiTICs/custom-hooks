@@ -8,7 +8,7 @@ Ejemplo de uso:
         email: ''
     }
 
-    const [formValues, handleInputChange, reset] = userForm(initialForm);
+    const [formValues, handleInputChange, reset] = useForm(initialForm);
     
 ```
 
